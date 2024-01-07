@@ -2,3 +2,63 @@
     margin: 0px;
     padding: 0px;
 }
+.container{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.banner{
+    background: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+.banner>h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    padding-top: 177px;
+    margin-bottom: 16px;
+}
+.banner>h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 177px;
+}
+/* ======= ALL CATEGORIES PART ========= */
+.categories{
+    text-align: center;
+    margin-top: 120px;
+}
+.categories > h2{
+    color: #F00; 
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Inter;
+  
+}
+.categories p{
+    color: #F00;
+    margin-top: 48px; 
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Inter;
+}
+.categories h1{
+    color: #070211;
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Inter;
+}
+.categories img{
+    margin-top: 48px;
+    width: 802px;
+}
