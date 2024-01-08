@@ -124,6 +124,13 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    transition: all linear 0.3s;
+}
+.midnight_part .join_btn:hover{
+    color: yellow;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid white  ;
 }
 /*  =======Apply or information Start=============  */
 .applyOrInformation{
@@ -159,6 +166,13 @@ line-height: 56px;
     font-weight: 700;
     text-align: center;
     font-family: Inter;
+    transition: all linear 0.3s;
+}
+.applyOrInformation button:hover{
+    color: yellow;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 /*  ========Comming Soon Part============ */
 .comming_soon{
@@ -304,10 +318,17 @@ line-height: 56px;
     gap: 24px;
     margin-bottom: 24px;
 }
+.Portfolio .part1 img:hover{
+    scale: 1.1;
+}
 .Portfolio .part2{
     display: flex;
     gap: 24px;
 }
+.Portfolio .part2 img:hover{
+    scale: 1.1;
+}
+
 
 
 /* ============Subscribe Newsletter Part========== */
@@ -367,7 +388,13 @@ line-height: 56px;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 80px;
-
+    transition: all linear 0.3s;
+}
+.input-button button:hover{
+    color: yellow;
+    background: black;
+    border-radius: 0px 50px 50px 0px;
+    border: 2px solid white  ;
 }
 /* ==============footer part start ================ */
 #footer{
@@ -402,6 +429,9 @@ line-height: 56px;
     width: 64px;
     height: 64px;
     margin-right: 24px;
+}
+.footer_icon_part img:hover{
+    scale: 1.2;
 }
 .footer_2nd_part{
     display: flex;
