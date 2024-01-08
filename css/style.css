@@ -219,6 +219,7 @@ line-height: 56px;
 .holy_text_part{
     text-align: center;
 }
+
 .holy_text_part h3{
     color: #070211;
     margin-top: 120px;
@@ -247,38 +248,33 @@ line-height: 56px;
     font-family: Inter;
     margin-bottom: 64px;
 }
-.holy_img_middle_part{
-    padding-top: 100px;
-    background-image: url("../images/Rectangle\ 1.png");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: right;
+ 
 
-}
-.holy_img_middle_part .left {
-    margin-top: 64px;
-    text-align: center;
-}
-.holy_img_middle_part .right {
-    margin-right: -67px;
-    text-align: center;
-}
-
-.holy_img_last_part{
+.bg-img{
     background: url("../images/Rectangle\ 2.png");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    width: 1320px;
-    height: 286px;
+
 }
-.holy_img_last_part img{
-    width: 600px;
-    height: 600px;
+.bg-img .main{
+    display: flex;
+    justify-content: space-between;
     
 }
-
-
-
+.bg-img .main .right{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 228px;
+}
+.left{
+    position: relative;
+}
+.left .right2{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: -50%, -50%;
+}
 
 /* ============Our Awesome Portfolio part============ */
 .Portfolio_text h3{
