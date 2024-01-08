@@ -6,7 +6,7 @@
     padding: 0px;
 }
 .container{
-    width: 82%;
+    width: 1320px;
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -276,6 +276,14 @@ line-height: 56px;
     margin-top: 22px;
     width: 896px;
     margin-bottom: 48px;
+}
+.Portfolio .part1{
+    display: flex;
+    gap: 24px;
+}
+.Portfolio .part2{
+    display: flex;
+    gap: 24px;
 }
 
 
