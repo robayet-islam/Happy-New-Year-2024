@@ -254,9 +254,29 @@ line-height: 56px;
 
 
 
-
-
-
+/* ============Our Awesome Portfolio part============ */
+.Portfolio_text h3{
+    color: #F00;
+    margin-top: 120px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+}
+.Portfolio_text h2{
+    color: #070211;
+    margin-top: 16px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.Portfolio_text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 22px;
+    width: 896px;
+    margin-bottom: 48px;
+}
 
 
 /* ============Subscribe Newsletter Part========== */
@@ -291,17 +311,33 @@ line-height: 56px;
 }
 .input-button input{
     background: #FFF;
-    width: 648px;
+    width: 448px;
     padding: 25px 30px;
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0px;
 }
+.input-button button{
+    width: 210px;
+    color: #FFF;
+    background: #F00;
+    margin-top: 48px;
+    padding: 25px 30px;
+    border-radius: 0px 50px 50px 0px;
+    border: 0px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 80px;
 
+}
 /* ==============footer part start ================ */
 #footer{
     background: #070211;
+    margin-top: 120px;
 }
 .footer_first_part{
     display: flex;
