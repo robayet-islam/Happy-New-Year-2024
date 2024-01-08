@@ -10,15 +10,23 @@
     max-width: 1320px;
     margin: 0 auto;
 }
-.banner{
-    background: url("../images/Banner\ Image.png");
-    background-repeat: no-repeat;
-    height: 600px;
-    background-position: center;
-    /* background-color: transparent; */
-    background-color: #07021127;
+#header{
+    margin-top: 50px;
 }
-.banner>h3{
+.background-image{
+    width: 1320px;
+    height: 600px;
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.bgGradient{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+    .banner>h3{
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -28,6 +36,8 @@
 }
 .banner>h2{
     color: #FFF;
+    width: 632px;
+    margin: 0 auto;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -68,17 +78,24 @@
     width: 802px;
 }
 /* =========== Midnight party Start============= */
+.midnight_bg{
+    background: url("../images/Vectorrr.png");
+    background-position: cover ;
+    background-repeat: no-repeat;
+}
+.color-gradient{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
 .midnight_part{
     display: flex;
     justify-content:center;
     align-items: center;
     margin-top: 120px;
-    padding-left: 120px;
     width: 1320px;
     height: 600px;
-    background: url("../images/Vectorrr.png");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .midnight_part h2 {
     color: #FFF;
@@ -98,18 +115,27 @@
 .midnight_part .join_btn{
     color: #FFF;
     margin-top: 48px;
-    width: 103px;
-    height: 24px;
+    width: 150px;
+    height: 54px;
+    background: #F00;
     text-align: center;
+    border: 0px;
+    border-radius: 16px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
 }
 /*  =======Apply or information Start=============  */
 .applyOrInformation{
     margin-top: 120px;
     text-align: center;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.applyOrInformation .title{
+    padding-top: 100px;
 }
 .applyOrInformation h3{
 color: #070211;
@@ -124,6 +150,7 @@ line-height: 56px;
 .applyOrInformation button{
     color: #FFF;
     background: #F00;
+    border: 0px;
     border-radius: 8px;
     margin-top: 48px;
     padding: 16px 32px;
@@ -132,7 +159,6 @@ line-height: 56px;
     font-weight: 700;
     text-align: center;
     font-family: Inter;
-    text-transform: uppercase;
 }
 /*  ========Comming Soon Part============ */
 .comming_soon{
@@ -280,6 +306,7 @@ line-height: 56px;
 .Portfolio .part1{
     display: flex;
     gap: 24px;
+    margin-bottom: 24px;
 }
 .Portfolio .part2{
     display: flex;
@@ -291,6 +318,10 @@ line-height: 56px;
 .newsubscriber{
     text-align: center;
     margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+
 }
 .newsubscriber img{
     width: 150px;
@@ -359,13 +390,13 @@ line-height: 56px;
     font-size: 24px;
     font-weight: 500;
 }
-.footer_first_part .footer_text_right{
+
+.footer_first_part .footer_text_right {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     padding-right: 150px;
-
 }
 .footer_icon_part{
     margin-top: 48px;
@@ -373,7 +404,9 @@ line-height: 56px;
     padding-bottom: 48px;
 }
 .footer_icon_part img{
-    margin-right: 10px;
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
 }
 .footer_2nd_part{
     display: flex;
