@@ -442,7 +442,7 @@ line-height: 56px;
 .footer_icon_part .x{
     color: rgb(10, 109, 223);
 }
-.footer_icon_part a:hover{
+.footer_icon_part a> img:hover{
     scale: 1.1;
 }
 .footer_2nd_part{
